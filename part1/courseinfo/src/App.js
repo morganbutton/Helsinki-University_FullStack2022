@@ -66,7 +66,6 @@ const App = () => {
 
   return (
     <div>
-<<<<<<< HEAD
     <Header course={course.name} />
     <Content
       part1={course.parts[0].name}
@@ -81,17 +80,5 @@ const App = () => {
   )
 }
 
-=======
-      <Header course={course} />
-      <Content
-        part1={parts[0]}
-        part2={parts[1]}
-        part3={parts[2]}
-      />
-      <Total totalExcercises={total} />
-    </div>
-  );
-};
->>>>>>> 15fc8ec238428008d407d0b8d18620b5e4e70639
 
 export default App;
