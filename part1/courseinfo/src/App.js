@@ -8,26 +8,16 @@ const Header = (props) => {
 const Part = (props) => {
   return (
     <div>
-<<<<<<< HEAD
       {props.name} &nbsp; {props.exercises}
-=======
-      {props.part}
->>>>>>> 15fc8ec238428008d407d0b8d18620b5e4e70639
     </div>
   );
 };
 const Content = (props) => {
   return (
     <div>
-<<<<<<< HEAD
       <Part name={props.part1} exercises={props.exercise1} />
       <Part name={props.part2} exercises={props.exercise2} />
       <Part name={props.part3} exercises={props.exercise3} />
-=======
-      <Part part={props.part1} />
-      <Part part={props.part2} />
-      <Part part={props.part3} />
->>>>>>> 15fc8ec238428008d407d0b8d18620b5e4e70639
     </div>
   );
 };
