@@ -31,7 +31,7 @@ const Total = (props) => {
 }
 
 const App = () => {
-    const part1 = 'Fundamentals of React';
+    const part1 = 'Fundamentals of React Part A 1.1 and 1.2';
     const exercise1 = 10;
     const part2 = 'Using props to pass data';
     const exercise2 = 7;
